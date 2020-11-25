@@ -208,7 +208,7 @@ body {
     padding: 0;
 }
 
-.--post-head, #menu-desz, .breadcrumbs {
+.--post-head, #menu-desz, .breadcrumbs, #featured-post .widget>h2, .featured-slider .widget>h2, .sidebarsz>.widget h2 {
     background-color: #e91e63;
 }
 
@@ -1170,7 +1170,7 @@ h2.post-title {
     padding: 10px;
     margin: auto;
     font-weight: 600;
-    color: #333;
+    color: #fff;
     letter-spacing: .25px;
     padding-bottom: 10px;
     border-bottom: 1px solid #dddfe2;
