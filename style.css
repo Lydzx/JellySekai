@@ -192,7 +192,7 @@ h6 {
 }
 
 :link:hover, :visited:hover {
-    text-decoration: underline;
+    color: #c22a4e;
     transition: all .3s;
 }
 
@@ -208,7 +208,7 @@ body {
     padding: 0;
 }
 
-.--post-head, #menu-desz, .breadcrumbs, #featured-post .widget>h2, .featured-slider .widget>h2, .sidebarsz>.widget h2, .az-list li a:hover, #footer:before {
+.--post-head, #menu-desz, .breadcrumbs, #featured-post .widget>h2, .featured-slider .widget>h2, .sidebarsz>.widget h2, .az-list li a:hover, #footer:before, #PopularPosts1 ul li:nth-child(1):before, .pagecurrent {
     background-color: #c22a4e;
 }
 
@@ -1027,7 +1027,6 @@ h2.post-title {
     left: 10px;
     z-index: 2;
     border: 0;
-    background: #f44336;
     color: #FFF;
     padding: 10px;
     border-radius: 0;
@@ -1263,6 +1262,10 @@ h2.post-title {
     box-shadow: 1px 3px 8px #0000001a;
 }
 
+.pagecurrent {
+	color: #fff;
+}
+
 #blog-pager a:hover, .showpagePoint:hover {
     background: #e91e63;
     color: #FFF;
@@ -1479,7 +1482,7 @@ a.itop {
     background: linear-gradient(90deg, #222, #222);
 }
 
-.dark #PopularPosts1 ul li:nth-child(1):before, .dark #PopularPosts1 ul li:nth-child(1n+2), .dark #footer, .dark #blog-pager a, .dark #blog-pager .pagecurrent {
+.dark #PopularPosts1 ul li:nth-child(1n+2), .dark #footer, .dark #blog-pager a, .dark #blog-pager .pagecurrent {
     background-color: #333;
     border-color: #111;
 }
