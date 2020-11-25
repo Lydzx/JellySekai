@@ -21,10 +21,6 @@ body {
     display: block;
 }
 
-a {
-	text-decoration: none!important;
-}
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -190,7 +186,7 @@ h6 {
 
 :link, :visited {
     color: #2c3239;
-    text-decoration: none;
+    text-decoration: none!important;
     outline: none;
     transition: all .3s;
 }
