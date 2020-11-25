@@ -209,7 +209,7 @@ body {
 }
 
 .--post-head, #menu-desz, .breadcrumbs, #featured-post .widget>h2, .featured-slider .widget>h2, .sidebarsz>.widget h2 {
-    background-color: #e91e63;
+    background-color: #c22a4e;
 }
 
 #outer-wrap {
@@ -328,7 +328,7 @@ ul.menu {
 }
 
 ul.menu li a {
-    color: #d8d8d8;
+    color: #fff;
     font-weight: 400;
     text-transform: capitalize;
     display: block;
@@ -337,7 +337,7 @@ ul.menu li a {
 }
 
 ul.menu li a:hover {
-    color: #FFF;
+    color: #fff;
     text-decoration: none;
     background: rgba(0, 0, 0, .3);
 }
@@ -721,7 +721,6 @@ h1.post-title {
     color: #fff;
     letter-spacing: .25px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #dddfe2;
 }
 
 .--post {
@@ -1173,7 +1172,6 @@ h2.post-title {
     color: #fff;
     letter-spacing: .25px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #dddfe2;
 }
 
 .featured-slider .widget, .sidebarsz .widget {
