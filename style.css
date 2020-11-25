@@ -713,12 +713,12 @@ h1.post-title {
 }
 
 .--post-head {
-    color: #fff;
     display: block;
     font-size: 17px;
     padding: 10px;
     margin: -10px -10px 8px -10px;
-    font-weight: 400;
+    font-weight: 600;
+    color: #fff;
     letter-spacing: .25px;
     padding-bottom: 10px;
     border-bottom: 1px solid #dddfe2;
